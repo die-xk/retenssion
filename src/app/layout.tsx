@@ -6,8 +6,11 @@ import Footer from '../components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Next.js with Clerk and Supabase',
-  description: 'Application with authentication and database',
+  title: 'Retenssion',
+  description: 'Turn your customers into loyal customers',
+  icons: {
+    icon: '/favicon.jpg',
+  },
 }
 
 export default function RootLayout({

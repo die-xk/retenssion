@@ -1,5 +1,4 @@
 import React from 'react';
-import { Target } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,8 +8,10 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center">
-              <Target className="h-8 w-8 text-indigo-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">RetainPro</span>
+              <a href="/" className="flex items-center">
+                <img src="/logo.svg" alt="Retenssion Logo" className="h-8 w-8" />
+                <span className="ml-2 text-xl font-bold text-gray-900">retenssion</span>
+              </a>
             </div>
             <p className="mt-4 text-gray-600 text-sm">
               Helping SaaS companies reduce churn and grow revenue through AI-powered retention strategies.
@@ -25,10 +26,11 @@ const Footer = () => {
             <ul className="mt-4 space-y-3">
               {['Features', 'Pricing', 'Demo', 'API'].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-base text-gray-600 hover:text-indigo-600">
+                  <a href={item === 'Features' ? '/retention-metrics' : item === 'Pricing' ? '/pricing' : item === 'Demo' ? '/demo' : '/api'} className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
                   </a>
                 </li>
+
               ))}
             </ul>
           </div>

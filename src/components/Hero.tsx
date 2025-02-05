@@ -1,4 +1,3 @@
-
 "use client"
 import React, { useState } from 'react';
 import { ArrowRight, DollarSign, TrendingUp, Shield, Users } from 'lucide-react';
@@ -43,7 +42,7 @@ const Hero = () => {
               
               {/* Headline */}
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 tracking-tight mb-6 animate-slide-up">
-                Stop Losing Revenue to Churn – Predict, Retain, and Grow with AI-Driven Insights
+                Retain Your Revenue in 3 Steps
               </h1>
               
               {/* Subheadline */}
@@ -53,7 +52,10 @@ const Hero = () => {
               
               {/* CTA Section */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-12 animate-slide-up-delay-2">
-                <button className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150 shadow-lg hover:shadow-xl">
+                <button
+                  onClick={() => window.location.href = '/sign-up'}
+                  className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150 shadow-lg hover:shadow-xl"
+                >
                   Start Your Free Trial
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </button>

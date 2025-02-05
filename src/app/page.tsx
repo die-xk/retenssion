@@ -32,11 +32,17 @@ export default function Home() {
 
      {showPopup && (
        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-         <div className="bg-white rounded-lg p-6 shadow-lg">
+         <div className="bg-white rounded-lg p-6 shadow-lg relative">
+           <button
+             onClick={() => setShowPopup(false)}
+             className="absolute top-2 right-2 text-gray-600 hover:text-gray-900"
+           >
+             &times;
+           </button>
            <h2 className="text-lg font-semibold text-gray-900">Exclusive Offer Just for You!</h2>
            <p className="mt-2 text-gray-600">Sign up now and get 20% off for the first 3 months!</p>
            <button
-             onClick={() => {/* Implement sign-up logic here */}}
+             onClick={() => window.location.href = '/signup'}
              className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-lg"
            >
              Sign Up Now

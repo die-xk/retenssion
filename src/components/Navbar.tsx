@@ -54,10 +54,11 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             {/* Logo */}
-            <div className="flex-shrink-0 flex items-center">
-              <Target className="h-8 w-8 text-indigo-600" />
+            <a href='/' className="flex-shrink-0 flex items-center">
+              <img src="/logo.svg" alt="Retenssion Logo" className="h-8 w-8" />
               <span className="ml-2 text-xl font-bold text-gray-900">retenssion</span>
-            </div>
+            </a>
+
 
             {/* Desktop Navigation */}
             <div className="hidden md:ml-6 md:flex md:space-x-8">
@@ -74,14 +75,15 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
                 {analyticsOpen && (
                   <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                     <div className="py-1">
-                      <a href="#" className="group flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
+                      <a href="/retention-metrics" className="group flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
                         <TrendingUp className="mr-3 h-4 w-4 text-gray-500 group-hover:text-indigo-600" />
                         Retention Metrics
                       </a>
-                      <a href="#" className="group flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
+                      <a href="/customer-health" className="group flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
                         <Heart className="mr-3 h-4 w-4 text-gray-500 group-hover:text-indigo-600" />
                         Customer Health
                       </a>
+
                     </div>
                   </div>
                 )}
@@ -113,10 +115,11 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
                 )}
               </div>
 
-              <a href="#" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+              <a href="/pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 <Building2 className="w-4 h-4 mr-1" />
                 Pricing
               </a>
+
             </div>
           </div>
 
@@ -143,7 +146,6 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
                 Sign In
               </a>
             </SignedOut>
-
 
             {/* Mobile menu button */}
             <div className="md:hidden ml-3">
@@ -180,7 +182,7 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
               </button>
               {analyticsOpen && (
                 <div className="pl-6 pr-4 py-2 space-y-1 bg-gray-50">
-                  <a href="#" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:text-indigo-600">
+                  <a href="/retention-metrics" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:text-indigo-600">
                     <TrendingUp className="mr-3 h-4 w-4" />
                     Retention Metrics
                   </a>
