@@ -77,10 +77,11 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
 
             {/* Navigation Links */}
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              <a href="/product-1" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+              <a href="/" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 Products
               </a>
-              <a href="/users" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+
+              <a href="/" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 What you get
               </a>
               <a href="/pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
