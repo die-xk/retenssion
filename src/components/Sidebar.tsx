@@ -24,6 +24,13 @@ const Sidebar = () => {
       description: 'Main analytics overview'
     },
     {
+      path: '/dashboard/blog/create',
+      name: 'Blog',
+      icon: LayoutDashboard,
+      description: 'Main analytics overview'
+    },
+
+    {
       path: '/dashboard/analytics',
       name: 'User Analytics',
       icon: Users,
