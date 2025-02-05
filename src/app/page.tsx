@@ -10,6 +10,7 @@ import Link from "next/link";
 import DemoDashboard from "./demo-dashboard";
 import { useEffect, useState } from 'react';
 import DashboardCategories from "@/components/DashboardCategories";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const { userId } = useAuth();
@@ -24,7 +25,8 @@ export default function Home() {
   }, []);
 
   return (
-    <>  
+    <> 
+     <Analytics />
      <Hero />
      <Demo />
      <Features />
