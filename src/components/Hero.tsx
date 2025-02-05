@@ -91,9 +91,12 @@ const Hero = () => {
               </div>
               
               <p className="text-gray-600 mb-6">
-                See how much you could save with RetainPro
+                See how much you could save with <span className="font-bold text-indigo-600">retenssion</span>
               </p>
               
+
+
+
               <div className="space-y-6">
                 <div>
                   <label htmlFor="mrr" className="block text-sm font-medium text-gray-700 mb-2">
@@ -129,10 +132,11 @@ const Hero = () => {
                   </div>
                 )}
                 
-                <button className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
+                <button onClick={() => window.location.href = '/sign-up'} className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
                   Start Saving Today
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </button>
+
               </div>
             </div>
           </div>

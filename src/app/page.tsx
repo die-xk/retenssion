@@ -9,6 +9,7 @@ import { UserButton, useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import DemoDashboard from "./demo-dashboard";
 import { useEffect, useState } from 'react';
+import DashboardCategories from "@/components/DashboardCategories";
 
 export default function Home() {
   const { userId } = useAuth();
@@ -27,6 +28,7 @@ export default function Home() {
      <Hero />
      <Demo />
      <Features />
+     <DashboardCategories />
      <Pricing />
      <DemoDashboard />
 

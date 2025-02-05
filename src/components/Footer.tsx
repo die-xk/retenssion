@@ -21,10 +21,10 @@ const Footer = () => {
           {/* Product Links */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
-              Product
+              Platform
             </h3>
             <ul className="mt-4 space-y-3">
-              {['Features', 'Pricing', 'Demo', 'API'].map((item) => (
+              {['Features', 'Pricing', 'Demo', 'Case Studies'].map((item) => (
                 <li key={item}>
                   <a href={item === 'Features' ? '/retention-metrics' : item === 'Pricing' ? '/pricing' : item === 'Demo' ? '/demo' : '/api'} className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
@@ -41,7 +41,7 @@ const Footer = () => {
               Company
             </h3>
             <ul className="mt-4 space-y-3">
-              {['About', 'Blog', 'Careers', 'Contact'].map((item) => (
+              {['Blog', 'Careers', 'Terms', 'Privacy'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
@@ -54,10 +54,10 @@ const Footer = () => {
           {/* Legal Links */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
-              Legal
+              Support
             </h3>
             <ul className="mt-4 space-y-3">
-              {['Privacy', 'Terms', 'Security', 'GDPR'].map((item) => (
+              {['Community', 'Contact', 'Help Center'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
@@ -70,10 +70,13 @@ const Footer = () => {
 
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-sm text-gray-600 text-center">
-            © {new Date().getFullYear()} RetainPro. All rights reserved.
+            © {new Date().getFullYear()} retenssion. All rights reserved. 
+            <br />
+            Made with ❤️ in Kosovo 🇽🇰
           </p>
         </div>
       </div>
+
     </footer>
   );
 };

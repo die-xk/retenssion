@@ -90,7 +90,7 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
               </div>
 
               {/* Users Dropdown */}
-              <div className="relative">
+              {/* <div className="relative">
                 <button
                   className="dropdown-button inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600"
                   onClick={() => handleDropdownClick('users')}
@@ -102,10 +102,11 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
                 {usersOpen && (
                   <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                     <div className="py-1">
-                      <a href="#" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
+                      <a href="/what-you-get" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
                         <UserCheck className="mr-3 h-4 w-4 text-gray-500 group-hover:text-indigo-600" />
                         Active Users
                       </a>
+
                       <a href="#" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50">
                         <MessageSquare className="mr-3 h-4 w-4 text-gray-500 group-hover:text-indigo-600" />
                         Feedback
@@ -113,7 +114,7 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
                     </div>
                   </div>
                 )}
-              </div>
+              </div> */}
 
               <a href="/pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 <Building2 className="w-4 h-4 mr-1" />
