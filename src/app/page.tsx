@@ -28,7 +28,7 @@ export default function Home() {
      <Hero />
      <Demo />
      <Features />
-     <DashboardCategories />
+  
      <Pricing />
      <DemoDashboard />
 

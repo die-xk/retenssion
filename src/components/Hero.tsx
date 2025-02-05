@@ -47,7 +47,7 @@ const Hero = () => {
               
               {/* Subheadline */}
               <p className="text-xl text-gray-600 mb-8 animate-slide-up-delay">
-                Turn at-risk users into loyal advocates using behavioral AI, smart engagement campaigns, and community-powered rewards. Get started risk-free for 14 days.
+                Turn at-risk users into loyal advocates using behavioral AI, smart engagement campaigns, and community-powered rewards. Get a free demo account.
               </p>
               
               {/* CTA Section */}
