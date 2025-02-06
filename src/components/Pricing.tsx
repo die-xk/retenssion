@@ -1,13 +1,14 @@
 "use client"
 import React from 'react';
 import { Check, ArrowRight } from 'lucide-react';
-
-
+import Payment from './Payment';
 const Pricing = () => {
   return (
-    <section className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+    <>
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
             Simple, Transparent Pricing
           </h2>
@@ -33,10 +34,13 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button onClick={() => window.location.href = '/sign-up'} className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
+            {/* <button className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
               Start Trial
               <ArrowRight className="ml-2 w-5 h-5" />
-            </button>
+            </button> */}
+            <Payment />
+
+
 
           </div>
 
@@ -68,7 +72,7 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button onClick={() => window.location.href = '/sign-up'} className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
+            <button className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
               Start Trial
               <ArrowRight className="ml-2 w-5 h-5" />
             </button>
@@ -97,15 +101,17 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button onClick={() => window.location.href = '/sign-up'} className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
+            <button className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
               Contact Sales
               <ArrowRight className="ml-2 w-5 h-5" />
             </button>
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 };
+
 
 export default Pricing;

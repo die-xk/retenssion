@@ -87,28 +87,28 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
               <a href="/pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 Pricing
               </a>
+
+              <SignedIn>
+                <a href="/dashboard" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+                  Dashboard
+                </a>
+              </SignedIn>
+              
+              
             </div>
           </div>
 
           {/* Right side */}
           <div className="flex items-center">
-            {/* Notifications */}
-            <button className="p-2 text-gray-500 hover:text-indigo-600">
-              <Bell className="h-5 w-5" />
-            </button>
 
             {/* Conditional Sign In / Dashboard Button */}
             <SignedIn>
-              <a href="/dashboard" className="ml-4 inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition duration-200">
-                Dashboard
-              </a>
-              <div className="ml-4">
-                <UserButton />
-              </div>
+              <UserButton />
             </SignedIn>
             <SignedOut>
               <a href="/sign-in" className="ml-4 inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition duration-200">
                 Sign In
+
               </a>
             </SignedOut>
 
@@ -142,6 +142,12 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
             <a href="/pricing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
               Pricing
             </a>
+            <SignedIn>
+              <a href="/dashboard" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
+                Dashboard
+              </a>
+            </SignedIn>
+                       
           </div>
         </div>
       )}

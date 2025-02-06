@@ -7,11 +7,11 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import { UserButton, useAuth } from "@clerk/nextjs";
 import Link from "next/link";
-import DemoDashboard from "./demo-dashboard";
+import DemoDashboard from "../components/demo-dashboard";
 import { useEffect, useState } from 'react';
 import DashboardCategories from "@/components/DashboardCategories";
 import { Analytics } from "@vercel/analytics/react"
-
+import NewHero from "@/components/NewHero";
 export default function Home() {
   const { userId } = useAuth();
   const [showPopup, setShowPopup] = useState(false);

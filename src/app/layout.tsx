@@ -21,6 +21,13 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+            <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+    <script type="text/javascript">
+      Paddle.Environment.set('sandbox');
+      Paddle.setPublicKey('cdc3864fc01cd4b20b63687b80a8c7c346ab0c6acbaa07797d');
+    </script>
+        </head>
         <body className={inter.className}>
           <Navbar isLoggedIn={true} />
           {children}

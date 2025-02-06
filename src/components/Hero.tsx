@@ -47,7 +47,7 @@ const Hero = () => {
               
               {/* Subheadline */}
               <p className="text-xl text-gray-600 mb-8 animate-slide-up-delay">
-                Turn at-risk users into loyal advocates using behavioral AI, smart engagement campaigns, and community-powered rewards. Get a free demo account.
+              Embed a feedback widget in your app in 2 minutes. Get real user frustrations delivered to your inbox + Intercom/Zendesk.  
               </p>
               
               {/* CTA Section */}
@@ -60,7 +60,7 @@ const Hero = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </button>
                 <p className="text-sm text-gray-600">
-                  No credit card required. Join 150+ SaaS companies saving 20%+ MRR
+                  Join 150+ SaaS companies saving 20%+ MRR
                 </p>
               </div>
               
