@@ -7,7 +7,6 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import { UserButton, useAuth } from "@clerk/nextjs";
 
-import DemoDashboard from "../components/demo-dashboard";
 import { useEffect, useState } from 'react';
 
 import { Analytics } from "@vercel/analytics/react"
