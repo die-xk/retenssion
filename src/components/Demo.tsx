@@ -190,6 +190,22 @@ const Demo = () => {
                     </p>
                   </div>
                 </div>
+
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
+                      <CheckCircle2 className="h-6 w-6" />
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h4 className="text-lg font-medium text-gray-900">
+                      Actionable Insights
+                    </h4>
+                    <p className="mt-2 text-gray-600">
+                      Turn qualitative feedback into quantifiable action steps.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

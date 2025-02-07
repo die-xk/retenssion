@@ -25,10 +25,10 @@ const Features = () => {
                 <Crystal className="w-6 h-6 text-indigo-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                AI Churn Predictions
+                AI Surveys
               </h3>
               <p className="text-gray-600">
-                Spot risks 30 days earlier with behavior-based risk scores
+                Automate surveys to get real user frustrations delivered to your inbox.
               </p>
             </div>
 
@@ -38,10 +38,10 @@ const Features = () => {
                 <Mail className="w-6 h-6 text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Omnichannel Campaigns
+                Feedback Widget
               </h3>
               <p className="text-gray-600">
-                Automate win-back emails, calls, and in-app rewards
+                Collect in-app feedback with a widget in 2 minutes.
               </p>
             </div>
 
@@ -51,10 +51,10 @@ const Features = () => {
                 <Gift className="w-6 h-6 text-pink-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Loyalty Engine
+                User Behavior Analysis
               </h3>
               <p className="text-gray-600">
-                Turn loyal users into affiliates with perks and community rewards
+                Monitor feature usage and user behavior to identify churn risks.
               </p>
             </div>
 
@@ -64,10 +64,11 @@ const Features = () => {
                 <LayoutTemplate className="w-6 h-6 text-green-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Onboarding Rescue
+                Heatmaps
               </h3>
               <p className="text-gray-600">
-                Fix leaks in your onboarding funnel with step-by-step guides
+                Track user clicks and scrolls to identify friction points.
+
               </p>
             </div>
           </div>

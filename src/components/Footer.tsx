@@ -26,7 +26,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-3">
               {['Features', 'Pricing', 'Demo', 'Case Studies'].map((item) => (
                 <li key={item}>
-                  <a href={item === 'Features' ? '/retention-metrics' : item === 'Pricing' ? '/pricing' : item === 'Demo' ? '/demo' : '/api'} className="text-base text-gray-600 hover:text-indigo-600">
+                  <a href={item === 'Features' ? '/features' : item === 'Pricing' ? '/pricing' : item === 'Demo' ? '/demo' : '/api'} className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
                   </a>
                 </li>
@@ -43,11 +43,12 @@ const Footer = () => {
             <ul className="mt-4 space-y-3">
               {['Blog', 'Careers', 'Terms', 'Privacy'].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-base text-gray-600 hover:text-indigo-600">
+                  <a href={item === 'Terms' ? '/terms' : item === 'Privacy' ? '/privacy' : item === 'Careers' ? '/careers' : '#'} className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
                   </a>
                 </li>
               ))}
+
             </ul>
           </div>
 
@@ -59,11 +60,12 @@ const Footer = () => {
             <ul className="mt-4 space-y-3">
               {['Community', 'Contact', 'Help Center'].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-base text-gray-600 hover:text-indigo-600">
+                  <a href={item === 'Community' ? '/community' : item === 'Contact' ? '/contact' : item === 'Help Center' ? '/help-center' : '#'} className="text-base text-gray-600 hover:text-indigo-600">
                     {item}
                   </a>
                 </li>
               ))}
+
             </ul>
           </div>
         </div>

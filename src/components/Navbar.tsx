@@ -77,15 +77,20 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
 
             {/* Navigation Links */}
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              <a href="/" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+              <a href="/features" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 Products
               </a>
 
-              <a href="/" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
-                What you get
+              <a href="/case-studies" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+                Case Studies
               </a>
+              
               <a href="/pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
                 Pricing
+              </a>
+
+              <a href="/blog" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
+                Blog
               </a>
 
               <SignedIn>
@@ -107,7 +112,7 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
             </SignedIn>
             <SignedOut>
               <a href="/sign-in" className="ml-4 inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition duration-200">
-                Sign In
+                Get Started &rarr;
 
               </a>
             </SignedOut>
@@ -133,12 +138,10 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
       {mobileMenuOpen && (
         <div className="md:hidden">
           <div className="pt-2 pb-3 space-y-1">
-            <a href="/product-1" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
+            <a href="/features" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
               Products
             </a>
-            <a href="/users" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
-              What you get
-            </a>
+           
             <a href="/pricing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
               Pricing
             </a>

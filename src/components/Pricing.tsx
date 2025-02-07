@@ -34,14 +34,12 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            {/* <button className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
+             <a href="/sign-up" className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
               Start Trial
               <ArrowRight className="ml-2 w-5 h-5" />
-            </button> */}
-            <Payment />
+            </a> 
 
-
-
+            
           </div>
 
           {/* Pro Plan */}
@@ -72,10 +70,11 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
+            <a href="/sign-up" className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
               Start Trial
               <ArrowRight className="ml-2 w-5 h-5" />
-            </button>
+            </a>
+
 
           </div>
 
@@ -101,10 +100,11 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
+            <a href="/sign-up" className="mt-8 w-full flex items-center justify-center px-6 py-3 border border-indigo-600 text-base font-medium rounded-lg text-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
               Contact Sales
               <ArrowRight className="ml-2 w-5 h-5" />
-            </button>
+            </a>
+
           </div>
         </div>
       </div>

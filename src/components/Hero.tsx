@@ -47,7 +47,7 @@ const Hero = () => {
               
               {/* Subheadline */}
               <p className="text-xl text-gray-600 mb-8 animate-slide-up-delay">
-              Embed a feedback widget in your app in 2 minutes. Get real user frustrations delivered to your inbox + Intercom/Zendesk.  
+              Embed a feedback widget in your app in 2 minutes. Get real user frustrations delivered to your inbox.  
               </p>
               
               {/* CTA Section */}
