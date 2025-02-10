@@ -61,7 +61,7 @@ const Pricing = () => {
                   'Everything in Basic, plus:',
                   'AI sentiment analysis for deeper insights',
                   'Advanced trigger configurations (behavioral insights, rage click detection)',
-                  'Priority support and onboarding assistance',
+                  'Priority email support',
                 ].map((feature) => (
                   <li key={feature} className="flex items-center">
                     <Check className="w-5 h-5 text-green-500 mr-3" />
@@ -88,7 +88,7 @@ const Pricing = () => {
                   'Everything in Pro, plus:',
                   'Custom integrations (Salesforce, HubSpot, etc.)',
                   'Advanced targeting and personalized retention playbooks',
-                  'Dedicated account management and white-glove support',
+                  'Priority technical support',
                 ].map((feature) => (
                   <li key={feature} className="flex items-center">
                     <Check className="w-5 h-5 text-green-500 mr-3" />
