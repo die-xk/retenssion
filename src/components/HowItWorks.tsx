@@ -59,15 +59,6 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        {/* Visual Cue */}
-        <div className="mt-12 text-center">
-          <h4 className="text-lg font-semibold text-gray-900 mb-4">Visual Summary</h4>
-          <img 
-            src="/path/to/your/flowchart.png" 
-            alt="How It Works Flowchart" 
-            className="mx-auto w-full max-w-md rounded-lg shadow-lg"
-          />
-        </div>
       </div>
     </section>
   );
