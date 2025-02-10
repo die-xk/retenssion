@@ -78,11 +78,7 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
             {/* Navigation Links */}
             <div className="hidden md:ml-6 md:flex md:space-x-8">
               <a href="/features" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
-                Products
-              </a>
-
-              <a href="/case-studies" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
-                Case Studies
+                Features
               </a>
               
               <a href="/pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-indigo-600">
@@ -111,7 +107,7 @@ const Navbar = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
               <UserButton />
             </SignedIn>
             <SignedOut>
-              <a href="/sign-in" className="ml-4 inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition duration-200">
+              <a href="/waitlist" className="ml-4 inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition duration-200">
                 Get Started &rarr;
 
               </a>

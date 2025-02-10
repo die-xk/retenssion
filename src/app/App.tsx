@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useUser } from '@clerk/nextjs';
 import { supabase } from '../lib/supabase'; // Import your Supabase client
-import Onboarding from './Onboarding';
+
 
 
 

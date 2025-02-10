@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Trust Badge */}
               <div className="inline-flex items-center space-x-2 bg-indigo-50 rounded-full px-4 py-1 mb-8 self-start animate-fade-in">
                 <Shield className="w-4 h-4 text-indigo-600" />
-                <span className="text-sm font-medium text-indigo-600">Trusted by 150+ SaaS companies</span>
+                <span className="text-sm font-medium text-indigo-600">Coming soon</span>
               </div>
               
               {/* Headline */}
@@ -53,30 +53,31 @@ const Hero = () => {
               {/* CTA Section */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-12 animate-slide-up-delay-2">
                 <button
-                  onClick={() => window.location.href = '/sign-up'}
+                  onClick={() => window.location.href = '/waitlist'}
                   className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150 shadow-lg hover:shadow-xl"
                 >
-                  Start Your Free Trial
+                  Get early access 
+
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </button>
                 <p className="text-sm text-gray-600">
-                  Join 150+ SaaS companies saving 20%+ MRR
+                  Save 20%+ MRR
                 </p>
               </div>
               
               {/* Social Proof */}
               <div className="grid grid-cols-3 gap-4 animate-fade-in-delay">
                 <div className="text-center">
-                  <p className="text-2xl font-bold text-indigo-600">150+</p>
-                  <p className="text-sm text-gray-600">Active Companies</p>
+                  <p className="text-2xl font-bold text-indigo-600">50+</p>
+                  <p className="text-sm text-gray-600">Companies Engaged Beta Testing</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl font-bold text-indigo-600">20%+</p>
-                  <p className="text-sm text-gray-600">MRR Saved</p>
+                  <p className="text-2xl font-bold text-indigo-600"> 20%+</p>
+                  <p className="text-sm text-gray-600">Expected MRR Savings</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl font-bold text-indigo-600">95%</p>
-                  <p className="text-sm text-gray-600">Satisfaction Rate</p>
+                  <p className="text-sm text-gray-600">Feedback Rating From Early Users</p>
                 </div>
               </div>
             </div>
@@ -132,10 +133,11 @@ const Hero = () => {
                   </div>
                 )}
                 
-                <button onClick={() => window.location.href = '/sign-up'} className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
+                <button onClick={() => window.location.href = '/waitlist'} className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-150">
                   Start Saving Today
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </button>
+
 
               </div>
             </div>

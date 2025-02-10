@@ -151,10 +151,10 @@ const Demo = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-900">
-                      Predict User Behavior
+                      Capture Real-Time Feedback
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      Our AI analyzes user patterns to identify at-risk customers before they churn.
+                      A lightweight widget that appears at the perfect moment.
                     </p>
                   </div>
                 </div>
@@ -167,11 +167,10 @@ const Demo = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-900">
-                      Smart Engagement
+                      Visual Rule Configuration
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      Automatically trigger personalized retention campaigns at the perfect moment.
-                    </p>
+Set up when and where to deploy feedback prompts - no code required.                    </p>
                   </div>
                 </div>
 
@@ -183,10 +182,11 @@ const Demo = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-900">
-                      Measurable Results
+                      Seamless Integration
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      Track the impact on your retention rates and revenue in real-time.
+                      Integrate with your existing tools and workflows.
+
                     </p>
                   </div>
                 </div>
